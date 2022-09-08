@@ -8,14 +8,14 @@
 
 void GetNeededNumbers (double a, double b)
 {
-
-if (a == b) 
+if (a > b) 
 {
    return;
 }
 GetNeededNumbers(a, b-1);
 if (b%2==0)
 Console.WriteLine(b);
+
 }
 
 double a = Clir("Enter where the array starts ");
